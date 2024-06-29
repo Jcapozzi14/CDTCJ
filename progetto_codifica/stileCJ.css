@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; 
+    color: #000000; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.hi {
+    font-style: italic;
+  }
+
+header {
+    background-color: #4682b4; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav.navMenu {
+    background-color: #5f9ea0; 
+    overflow: hidden;
+}
+
+nav.navMenu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav.navMenu ul li {
+    display: inline;
+}
+
+nav.navMenu ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav.navMenu ul li a:hover {
+    background-color: #4682b4; 
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+div#info, article {
+    margin: 20px;
+    padding: 20px;
+    background-color: #e6f0fa; 
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+h2 {
+    color: #4169e1; 
+}
+
+p {
+    line-height: 1.6;
+}
+
+div#fenomeni {
+    margin-top: 20px;
+}
+
+div#buttons {
+    text-align: center;
+}
+
+.highlight-name {
+    background-color: #d0f0c0;
+}
+
+.highlight-country {
+    background-color: #a3e8a4;
+}
+
+.highlight-date {
+    background-color: #7ad989;
+}
+
+.highlight-persName {
+    background-color: #4de370;
+}
+
+.highlight-roleName {
+    background-color: #1ad55a;
+}
+
+.highlight-orgName {
+    background-color: #9cd5af;
+}
+.highlight-num{
+    background-color: #94dbac;
+}
+
+div#buttons button {
+    background-color: #4169e1; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+div#buttons button:hover {
+    background-color: #4682b4; 
+}
+
+article {
+    border: 1px solid #4682b4; 
+    display: flex;
+    flex-direction: column;
+}
+
+article .flexbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+article .img, article .text {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f0f8ff; 
+    border: 1px solid #5f9ea0; 
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #4682b4; 
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer h3 {
+    margin: 0;
+}
+
