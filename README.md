@@ -1,6 +1,3 @@
 # CDTCJ
 
-il progetto è stato validato con xerces con il comando: java -cp "Xerces-J-bin.2.12.1/xerces-2_12_1/*" dom.Counter -v codifica.xml
 
-e con il risultato: 
-codifica.xml: 225;27;0 ms (1360 elems, 5797 attrs, 7734 spaces, 32515 chars)
